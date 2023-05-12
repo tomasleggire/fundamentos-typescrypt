@@ -5,7 +5,7 @@
   userId = 'asasda';
 
   function greeting(myText: string | number) { // Estoy declarando que va a recibir o un string o un numero, nada mas.
-    if(typeof myText === 'string') {
+    if(typeof myText === 'string') { // Con typeof reconoce que como debe tratar al dato
       console.log(`string ${myText.toLowerCase()}`);
     } else {
       console.log(`number ${myText.toFixed(1)}`);
